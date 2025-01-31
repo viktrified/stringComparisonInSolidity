@@ -3,7 +3,7 @@ pragma solidity ^0.8.6;
 
 contract CompareString {
     function compare(string calldata _garri, string calldata _sugar)
-        public
+        external
         pure
     {
         bytes calldata garriByte = bytes(_garri);
